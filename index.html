@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <!-- Basic -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">   
+   
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+     <!-- Site Metas -->
+    <title>TongantonganNHS</title>  
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Site Icons -->
+    <link rel="shortcut icon" href="images/tnhs logoss.png" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="images/tnhs logoss.png">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Site CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- ALL VERSION CSS -->
+    <link rel="stylesheet" href="css/versions.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css">
+
+    <!-- Modernizer for Portfolio -->
+    <script src="js/modernizer.js"></script>
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<body class="host_version"> 
+
+	<!-- Modal -->
+	<div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+		<div class="modal-content">
+			<div class="modal-header tit-up">
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 class="modal-title">Login</h4>
+			</div>
+			<div class="modal-body customer-box">
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs">
+					<li><a class="active" href="#Login" data-toggle="tab">Login</a></li>
+					<li><a href="#Registration" data-toggle="tab">Registration</a></li>
+				</ul>
+				<!-- Tab panes -->
+				<div class="tab-content">
+					<div class="tab-pane active" id="Login">
+						<form role="form" class="form-horizontal">
+							<div class="form-group">
+								<div class="col-sm-12">
+									<input class="form-control" id="email1" placeholder="Name" type="text">
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="col-sm-12">
+									<input class="form-control" id="exampleInputPassword1" placeholder="Email" type="email">
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-sm-10">
+									<button type="submit" class="btn btn-light btn-radius btn-brd grd1">
+										Submit
+									</button>
+									<a class="for-pwd" href="javascript:;">Forgot your password?</a>
+								</div>
+							</div>
+						</form>
+					</div>
+					<div class="tab-pane" id="Registration">
+						<form role="form" class="form-horizontal">
+							<div class="form-group">
+								<div class="col-sm-12">
+									<input class="form-control" placeholder="Name" type="text">
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="col-sm-12">
+									<input class="form-control" id="email" placeholder="Email" type="email">
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="col-sm-12">
+									<input class="form-control" id="mobile" placeholder="Mobile" type="email">
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="col-sm-12">
+									<input class="form-control" id="password" placeholder="Password" type="password">
+								</div>
+							</div>
+							<div class="row">							
+								<div class="col-sm-10">
+									<button type="button" class="btn btn-light btn-radius btn-brd grd1">
+										Save &amp; Continue
+									</button>
+									<button type="button" class="btn btn-light btn-radius btn-brd grd1">
+										Cancel</button>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	  </div>
+	</div>
+
+    <!-- LOADER -->
+	
+	<!-- END LOADER -->	
+	
+	<!-- Start header -->
+	<header class="top-navbar">
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="index.html">
+					<img src="images/tnhs logoss.png" height="90">
+				</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbars-host" aria-controls="navbars-rs-food" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbars-host">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
+						<li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="dropdown-a" data-toggle="dropdown">Strand Offer </a>
+							<div class="dropdown-menu" aria-labelledby="dropdown-a">
+								<a class="dropdown-item" href="STEM strand.html">STEM </a>
+								<a class="dropdown-item" href="GAS strand.html">GAS </a>
+								<a class="dropdown-item" href="HUMS strand.html">HUMSS </a>
+                                <a class="dropdown-item" href="TVL strand.html">TVL </a>
+								<a class="dropdown-item" href="ABM strand.html">ABM </a>
+							</div>
+						</li>
+						
+						<li class="nav-item"><a class="nav-link" href="teachers.html">Teachers</a></li>
+						<li class="nav-item"><a class="nav-link" href="contact.html">Sign Up</a></li>
+					</ul>
+					<ul class="nav navbar-nav navbar-right">
+                        <li><a class="hover-btn-new log orange" href="#" data-toggle="modal" data-target="#login"><span>Sign In</span></a></li>
+                    </ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<!-- End header -->
+	
+	<div id="carouselExampleControls" class="carousel slide bs-slider box-slider" data-ride="carousel" data-pause="hover" data-interval="false" >
+		<!-- Indicators -->
+		<ol class="carousel-indicators">
+			<li data-target="#carouselExampleControls" data-slide-to="0" class="active"></li>
+			<li data-target="#carouselExampleControls" data-slide-to="1"></li>
+			<li data-target="#carouselExampleControls" data-slide-to="2"></li>
+		</ol>
+		<div class="carousel-inner" role="listbox">
+			<div class="carousel-item active">
+				<div id="home" class="first-section" style="background-image:url('images/tnhs1.jpg');">
+					<div class="dtab">
+						<div class="container">
+							<div class="row">
+								<div class="col-md-12 col-sm-12 text-right">
+									<div class="big-tagline">
+										<h2><strong>TNHS </strong>The way to Success</h2>
+										<p class="lead"></p>
+											
+									</div>
+								</div>
+							</div><!-- end row -->            
+						</div><!-- end container -->
+					</div>
+				</div><!-- end section -->
+			</div>
+			<div class="carousel-item">
+				<div id="home" class="first-section" style="background-image:url('images/tnhs.jpg');">
+					<div class="dtab">
+						<div class="container">
+							<div class="row">
+								<div class="col-md-12 col-sm-12 text-left">
+									<div class="big-tagline">
+										<h2 data-animation="animated zoomInRight">TongantonganNHS Enrollment batch 2023-2024<strong> IS NO GOING ON!</strong></h2>
+										<p class="lead" data-animation="animated fadeInLeft">👀 Attention all students and parents! Big news ahead! 👏
+                                            🎓 Tongantongan National High School is excited to announce that we are now open for enrolments for the School Year 2023-2024, catering Grades 7 to 12! 📚✨
+                                            🗓️ Enrollment Period: August 7 - August 26, 2023
+                                            ⏰ Operating Days: Monday to Friday, 8:00 AM - 4:00 PM
+                                            📝 Requirements: Bring your NSO/PSA Birth Certificate and Report Card.
+                                            For further details, feel free to visit our school campus.  🌟🏫
+                                            #TNHSEnrollment . </p>
+											
+									</div>
+								</div>
+							</div><!-- end row -->            
+						</div><!-- end container -->
+					</div>
+				</div><!-- end section -->
+			</div>
+			<div class="carousel-item">
+				<div id="home" class="first-section" style="background-image:url('images/slay\ o\ partylist.jpg');">
+					<div class="dtab">
+						<div class="container">
+							<div class="row">
+								<div class="col-md-12 col-sm-12 text-center">
+									<div class="big-tagline">
+										<h2 data-animation="animated zoomInRight"><strong>SLAY-O</strong>Partylist</h2>
+										<p class="lead" data-animation="animated fadeInLeft">We are the catalysts of change, the beakers of progress, and the innovators of the future. Our mission is to elevate our university into a haven for scientific exploration, because we believe that true leadership is the fusion of knowledge and action!</p>
+											
+									</div>
+								</div>
+							</div><!-- end row -->            
+						</div><!-- end container -->
+					</div>
+				</div><!-- end section -->
+			</div>
+			<!-- Left Control -->
+			<a class="new-effect carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+				<span class="fa fa-angle-left" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			</a>
+
+			<!-- Right Control -->
+			<a class="new-effect carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+				<span class="fa fa-angle-right" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			</a>
+		</div>
+	</div>
+	
+    <div id="overviews" class="section wb">
+        <div class="container">
+            <div class="section-title row text-center">
+                <div class="col-md-8 offset-md-2">
+                    <h3>About</h3>
+                    <p class="lead">"Tongantongan National Highschool, located in the southern part of archipelago of the Philippines, is an educational institution that plays a crucial role in providing quality education to the 
+						students in its community. The school's commitment to academic excellence and holistic development is evident in its implementation of various programs and initiatives. These programs and iniatives aim to address the challenges faced by teachers, parent, and students in the context of modular learning in secondary public school."</p>
+					
+                </div>
+            </div><!-- end title -->
+        
+            <div class="row align-items-center">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                    <div class="message-box">
+                        <h4>2023 Science Month Event</h4>
+                        <h2>Welcome to Tongantongan National Highschool</h2>
+                        <p>"TIMELAPSE: Accentuating the Eras of Science Clubbing" September 11, 2023 | Tongantongan National Highschool.</p>
+
+                        <p> "Eyes here science enthusiasts! 🧐
+                            Our exciting contest fpr this week is here and the stage is set for you to showcase your talents and shine like you've always wanted before. 🌟
+                            This contest isn't just about winning, it's about pushing your boundaries, learning new things, and connecting with individuals from all walks of life.🌚
+                            Stay tuned for more updates and exciting announcements. Are you ready to step into the spotlight and take your shot at glory? Join us now and let the contest begin!🚀" </p>
+
+                        <a href="#" class="hover-btn-new orange"><span>Learn More</span></a>
+                    </div><!-- end messagebox -->
+                </div><!-- end col -->
+				
+				<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                    <div class="post-media wow fadeIn">
+                        <img src="images/science club.jpg" alt="" class="img-fluid img-rounded">
+                    </div><!-- end media -->
+                </div><!-- end col -->
+			</div>
+			<div class="row align-items-center">
+				<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                    <div class="post-media wow fadeIn">
+                        <img src="images/slay o partylist.jpg" alt="" class="img-fluid img-rounded">
+                    </div><!-- end media -->
+                </div><!-- end col -->
+				
+				<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                    <div class="message-box">
+                        <h2>Slay-O Partylist the school SSG school representatives </h2>
+                        <p>YES WE ARE READY TO SLAY!! 💅🏻
+                            Attention Science Enthusiasts! We proudly present the SLAY-O PARTYLIST.
+                            "Science Leaders Active Youth Organization"
+                            We are the catalysts of change, the beakers of progress, and the innovators of the future. Our mission is to elevate our university into a haven for scientific exploration, because we believe that true leadership is the fusion of knowledge and action!
+                            Get ready to champion the cause of science and be the advocates for those whose voices may not be heard. We are the scientific leaders who will continue to enlighten, experiment, and evolve for the betterment of our academic realm.
+                            .</p>
+
+                        <p> Join us in our quest to unlock the mysteries of the universe and inspire a new generation of scientists. Let create a scientific legacy that will resonate through the ages! 🧪🔍 
+                            WE SAY SLAY-O CAUSE WE'LL SLAY SO 😎.</p>
+
+                        <a href="#" class="hover-btn-new orange"><span>Learn More</span></a>
+                    </div><!-- end messagebox -->
+                </div><!-- end col -->
+				
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </div><!-- end section -->
+
+    <section class="section lb page-section">
+		<div class="container">
+			 <div class="section-title row text-center">
+                <div class="col-md-8 offset-md-2">
+                    <h3>TEACHER'S OF THE DAY</h3>
+                    <p class="lead">Happy Teacher's Day. We celebrate and acknowledge the invaluable contributions that teachers make to society.
+						Teachers are the backbone of education systems, shaping not only the academic knowledge but also the character and values 
+						of their students.
+					</p>
+                </div>
+            </div><!-- end title -->
+			<div class="timeline">
+				<div class="timeline__wrap">
+					<div class="timeline__items">
+						<div class="timeline__item">
+							<div class="timeline__content img-bg-01">
+								<h2>MIKE LENDON S. VELEZ</h2>
+								<p>Using the formulas... v = u + at, v2 = u2 + 2as, s = ut + 1/2at2 they can only be applied when acceleration is constant and motion is a straight line. Mao tuh layo man diay ang Pantaron, so I decide to transfer diri sa TNHS kay doul ra,
+									ingon sad sila "BIBO daw" dala pasingot nalang sad. #LOAN_GANI!.</p>
+							</div>
+						</div>
+						<div class="timeline__item">
+							<div class="timeline__content img-bg-02">
+								<h2>MARDE LUZ TABAÑAG</h2>
+								<p>My vision drives my heart to carry the CHAIN of CHANGE into my learners lives and transform the capabilities of my colleagues.</p>
+							</div>
+						</div>
+						<div class="timeline__item">
+							<div class="timeline__content img-bg-03">
+								<h2>HARLEY CANTOMAYOR</h2>
+								<p>As a teacher, i see a lot of potential in the children nowadays, specially that we are 
+									in the era of advanced technologies and learning styles, but at the same time challenged by lack of socialization and
+									community services. To contribute to the advancement of our society today and in the future, even in their simplest ways.</p>
+							</div>
+						</div>
+						<div class="timeline__item">
+							<div class="timeline__content img-bg-04">
+								<h2>RAUL GUILLERMO</h2>
+								<p>More than anything else, it's the students. I think of the love and responsibility I have toward them. They're putting an enermous amount 
+									of trust in me. Hoping that they'll learn something useful for their professional and personal development.</p>
+							</div>
+						</div>
+						
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+    <div id="plan" class="section lb">
+        <div class="container">
+            <div class="section-title text-center">
+                
+    <div id="testimonials" class="parallax section db parallax-off" style="background-image:url('images/css\ creators.jpg');">
+        <div class="container">
+            <div class="section-title text-center">
+                <h3>Creators</h3>
+                <p>It is an honor for these people who will make this website that this project is for practical research. </p>
+            </div><!-- end title -->
+
+            <div class="row">
+                <div class="col-md-12 col-sm-12">
+                    <div class="testi-carousel owl-carousel owl-theme">
+                        <div class="testimonial clearfix">
+							<div class="testi-meta">
+                                <img src="images/huakeen1.jpg" alt="" class="img-fluid">
+                                <h4>Huakeen N. Abugho </h4>
+                            </div>
+                            <div class="desc">
+                                <h3><i class="fa fa-quote-left"></i>ADMIN | EncoderX</h3>
+                                <p class="lead">I am the one in charge of making this website and encoding it. It is an honor for my colleagues to help me make it.</p>
+                            </div>
+                            <!-- end testi-meta -->
+                        </div>
+                        <!-- end testimonial -->
+
+                        <div class="testimonial clearfix">
+							<div class="testi-meta">
+                                <img src="images/marl2.jpg" alt="" class="img-fluid">
+                                <h4>Marlon B. Naluan </h4>
+                            </div>
+                            <div class="desc">
+                                <h3><i class="fa fa-quote-left"></i> DESC | Descriptive.</h3>
+                                <p class="lead">I am one of those who provides a description on our website in order to improve or make the website we created look excellent.</p>
+                            </div>
+                            <!-- end testi-meta -->
+                        </div>
+                        <!-- end testimonial -->
+
+                        <div class="testimonial clearfix">
+							<div class="testi-meta">
+                                <img src="images/carlEJ.jpg" alt="" class="img-fluid ">
+                                <h4>Carl EJ Tubongbanua </h4>
+                            </div>
+                            <div class="desc">
+                                <h3><i class="fa fa-quote-left"></i> AST | InformativeX</h3>
+                                <p class="lead">The Informative researcher to fill up more details in our website and so more information that include all school event and description. </p>
+                            </div>
+                            <!-- end testi-meta -->
+                        </div>
+                        <!-- end testimonial -->
+                        <div class="testimonial clearfix">
+							<div class="testi-meta">
+                                <img src="images/kian socorin2.jpg" alt="" class="img-fluid">
+                                <h4>Kian Socorin </h4>
+                            </div>
+                            <div class="desc">
+                                <h3><i class="fa fa-quote-left"></i> EXE | Code Analyzer</h3>
+                                <p class="lead"> Analyzing those codes before it executes and checking all the computer language components to make easier to launched.</p>
+                            </div>
+                            <!-- end testi-meta -->
+                        </div>
+                        <!-- end testimonial -->
+
+                        <div class="testimonial clearfix">
+							<div class="testi-meta">
+                                <img src="images//johnmark.jpg" alt="" class="img-fluid">
+                                <h4>Johnmark Arbues </h4>
+                            </div>
+                            <div class="desc">
+                                <h3><i class="fa fa-quote-left"></i> EXE | Data Analyzer</h3>
+                                <p class="lead">Checking all data and analyze those codes to make good before executing the class elements also the prosecution.</p>
+                            </div>
+                            <!-- end testi-meta -->
+                        </div>
+                        <!-- end testimonial -->
+
+                        <div class="testimonial clearfix">
+							<div class="testi-meta">
+                                <img src="images/sherwin.jpg" alt="" class="img-fluid">
+                                <h4>Sherwin Tubongbanua </h4>
+                            </div>
+                            <div class="desc">
+                                <h3><i class="fa fa-quote-left"></i> OSX | Sript & Data Analytics</h3>
+                                <p class="lead">Analyzing all data types of word core components each element and script checker. </p>
+                            </div>
+                            <!-- end testi-meta -->
+                        </div><!-- end testimonial -->
+                    </div><!-- end carousel -->
+                </div><!-- end col -->
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </div><!-- end section -->
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-xs-12">
+                    <div class="widget clearfix">
+                        <div class="widget-title">
+                            <h3>About US</h3>
+                        </div>
+                        <p> For more information you can check the social media link below. Thankyou Godbless.</p>   
+						<ul>
+
+							
+						</ul>
+						<div class="footer-right">
+							<ul class="footer-links-soi">
+								<li><a href="https://www.facebook.com/profile.php?id=100068311664321"><i  class="fa fa-facebook"></i></a></li>
+								<li><a href="#"><i class="fa fa-youtube"></i></a></li>
+								<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+								<li><a href="#"><i class="fa fa-google"></i></a></li>
+							</ul><!-- end links -->
+						</div>						
+                    </div><!-- end clearfix -->
+                </div><!-- end col -->
+
+				<div class="col-lg-4 col-md-4 col-xs-12">
+                    <div class="widget clearfix">
+                        <div class="widget-title">
+                            <h3>Information Link</h3>
+                        </div>
+                        <ul class="footer-links">
+                            <li><a href="#">Home</a></li>
+							<li><a href="#">About</a></li>
+							<li><a href="#">Contact</a></li>
+                        </ul><!-- end links -->
+                    </div><!-- end clearfix -->
+                </div><!-- end col -->
+				
+                <div class="col-lg-4 col-md-4 col-xs-12">
+                    <div class="widget clearfix">
+                        <div class="widget-title">
+                            <h3>Contact Details</h3>
+                        </div>
+
+                        <ul class="footer-links">
+                            <li><a href="mailto:#">tongantonganNHS@gmail.com</a></li>
+                            <li><a href="#">tnhsportal.git</a></li>
+                            <li>P-8 Lopez, Tongantongan, Valencia City, Bukidnon</li>
+                            <li>+63972849177</li>
+                        </ul><!-- end links -->
+                    </div><!-- end clearfix -->
+                </div><!-- end col -->
+				
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </footer><!-- end footer -->
+
+    
+    <a href="#" id="scroll-to-top" class="dmtop global-radius"><i class="fa fa-angle-up"></i></a>
+
+    <!-- ALL JS FILES -->
+    <script src="js/all.js"></script>
+    <!-- ALL PLUGINS -->
+    <script src="js/custom.js"></script>
+	<script src="js/timeline.min.js"></script>
+	<script>
+		timeline(document.querySelectorAll('.timeline'), {
+			forceVerticalMode: 700,
+			mode: 'horizontal',
+			verticalStartPosition: 'left',
+			visibleItems: 4
+		});
+	</script>
+</body>
+</html>

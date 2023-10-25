@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <!-- Basic -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">   
+   
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+     <!-- Site Metas -->
+    <title>TongantonganNHS</title>  
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Site Icons -->
+    <link rel="shortcut icon" href="images/tnhs logoss.png" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="images/tnhs logoss.png">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Site CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- ALL VERSION CSS -->
+    <link rel="stylesheet" href="css/versions.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css">
+
+    <!-- Modernizer for Portfolio -->
+    <script src="js/modernizer.js"></script>
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<body class="host_version"> 
+
+	<!-- Modal -->
+	<div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+		<div class="modal-content">
+			<div class="modal-header tit-up">
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 class="modal-title">Customer Login</h4>
+			</div>
+			<div class="modal-body customer-box">
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs">
+					<li><a class="active" href="#Login" data-toggle="tab">Login</a></li>
+					<li><a href="#Registration" data-toggle="tab">Registration</a></li>
+				</ul>
+				<!-- Tab panes -->
+				<div class="tab-content">
+					<div class="tab-pane active" id="Login">
+						<form role="form" class="form-horizontal">
+							<div class="form-group">
+								<div class="col-sm-12">
+									<input class="form-control" id="email1" placeholder="Name" type="text">
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="col-sm-12">
+									<input class="form-control" id="exampleInputPassword1" placeholder="Email" type="email">
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-sm-10">
+									<button type="submit" class="btn btn-light btn-radius btn-brd grd1">
+										Submit
+									</button>
+									<a class="for-pwd" href="javascript:;">Forgot your password?</a>
+								</div>
+							</div>
+						</form>
+					</div>
+					<div class="tab-pane" id="Registration">
+						<form role="form" class="form-horizontal">
+							<div class="form-group">
+								<div class="col-sm-12">
+									<input class="form-control" placeholder="Name" type="text">
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="col-sm-12">
+									<input class="form-control" id="email" placeholder="Email" type="email">
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="col-sm-12">
+									<input class="form-control" id="mobile" placeholder="Mobile" type="email">
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="col-sm-12">
+									<input class="form-control" id="password" placeholder="Password" type="password">
+								</div>
+							</div>
+							<div class="row">							
+								<div class="col-sm-10">
+									<button type="button" class="btn btn-light btn-radius btn-brd grd1">
+										Save &amp; Continue
+									</button>
+									<button type="button" class="btn btn-light btn-radius btn-brd grd1">
+										Cancel</button>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	  </div>
+	</div>
+
+    <!-- LOADER -->
+	<div id="preloader">
+		<div class="loader-container">
+			<div class="progress-br float shadow">
+				<div class="progress__item"></div>
+			</div>
+		</div>
+	</div>
+	<!-- END LOADER -->	
+
+    <!-- Start header -->
+	<header class="top-navbar">
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="index.html">
+					<img src="images/tnhs logoss.png" height="90">
+				</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbars-host" aria-controls="navbars-rs-food" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbars-host">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+						<li class="nav-item active"><a class="nav-link" href="about.html">About Us</a></li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="dropdown-a" data-toggle="dropdown">STRAND OFFER </a>
+							<div class="dropdown-menu" aria-labelledby="dropdown-a">
+								<a class="dropdown-item" href="STEM strand.html">STEM </a>
+								<a class="dropdown-item" href="GAS strand.html"> GAS</a>
+								<a class="dropdown-item" href="HUMS strand.html">HUMSS </a>
+                                <a class="dropdown-item" href="TVL strand.html">TVL </a>
+								<a class="dropdown-item" href="ABM strand.html">ABM </a>
+							</div>
+						</li>
+						<li class="nav-item"><a class="nav-link" href="teachers.html">Teachers</a></li>
+						<li class="nav-item"><a class="nav-link" href="contact.html">Sign Up</a></li>
+					</ul>
+					<ul class="nav navbar-nav navbar-right">
+                        <li><a class="hover-btn-new log" href="#" data-toggle="modal" data-target="#login"><span>Log In</span></a></li>
+                    </ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<!-- End header -->
+	
+	<div class="all-title-box">
+		<div class="container text-center">
+			<h1>About Us<span class="m_1">School Events and Announcements.</span></h1>
+		</div>
+	</div>
+	
+    <div id="overviews" class="section lb">
+        <div class="container">
+            <div class="section-title row text-center">
+                <div class="col-md-8 offset-md-2">
+                    <h3>About</h3>
+					<img src="images/tnhs staff supreme.jpg" alt="" class="img-fluid img-rounded">
+                    <p class="lead">we strive to create a nurturing and inclusive learning environment where students can thrive academically, socially, and emotionally. Our mission is to provide a well-rounded education that prepares students for success in their future endeavors. Here's a glimpse into what makes our school unique.</p>
+                </div>
+            </div><!-- end title -->
+        
+            <div class="row align-items-center">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                    <div class="message-box">
+                        <h4>Congratulations Star Guild!</h4>
+                        <h2>MGA BATANG TNHS, PALABAN AT WALANG INUURUNGAN💯🕺💃💛</h2>
+                        <p>Congratulations Tongantongan National High School for being one of the qualifiers for National Level on Nestlé Wellness Competition 2023-2024 HATAW SHOWDOWN - Junior High School Category 👏🏻
+							You made the school proud and we are all exhilarated to be recognized with your incomparable adeptness and unfathomable proficiency in the field of dancing.</p>
+
+                        <p> o the vivacious and flamboyant president of STAR GUILD ORGANIZATION John Mark Dupitas aka  Alexis Salvador Thank you so much for leading the group and guiding them all the way to create this unequaled performance - truly EXEMPLARY!💯
+							✨️To the class advisers and subject teachers of these students, thank you for your heartwarming considerations and for the support given to the students. Thank you 🤎
+							✨️To our ever vigorous School Head Maam Cristery Agawin, Thank you so much for allowing us to showcase our students' hidden potentials and to explore beyond their limits ❣️
+							✨️To our industrious and solicitous MAPEH Supervisor Sir Jourven Okit , Thank you for your Technical Assistance and for the trust you've given to me, for challenging me and for the bright ideas shared to me to make our performance way better. Thank you very much 🥰🙏🏻💯. </p>
+
+                        <a href="#" class="hover-btn-new orange"><span>Learn More</span></a>
+                    </div><!-- end messagebox -->
+                </div><!-- end col -->
+				
+				<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                    <div class="post-media wow fadeIn">
+                        <img src="images/tnhs supreme school.jpg" alt="" class="img-fluid img-rounded">
+                    </div><!-- end media -->
+                </div><!-- end col -->
+			</div>
+			<div class="row align-items-center">
+				<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                    <div class="post-media wow fadeIn">
+                        <img src="images/science club1.jpg" alt="" class="img-fluid img-rounded">
+                    </div><!-- end media -->
+                </div><!-- end col -->
+				
+				<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                    <div class="message-box">
+                        <h2>LOOK | Poster Making, Slogan Making, and Photo Essay Contest Triumph!</h2>
+                        <p>We are thrilled to announce the successful conduct of Poster Making, Slogan Making, and Photo Essay Contest in line with the Celebration of Science Month 2023 with the theme "TIMELAPSE: Accentuating the Eras of Science Clubbing." ⏳️👩🏻‍🎨
+							The talented students of Tongantongan National High School showcases their talents, creativity, and passion for science through their incredible artwork. 🎨✍️🏻
+							Who will emerge as the champions of this artistic showdown? Stay tuned for the big reveal! 🏆.</p>
+
+                        <a href="#" class="hover-btn-new orange"><span>Learn More</span></a>
+                    </div><!-- end messagebox -->
+                </div><!-- end col -->
+				
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </div><!-- end section -->
+	
+	<div class="hmv-box">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4 col-md-6 col-12">
+					<div class="inner-hmv">
+						<div class="icon-box-hmv"><i class="flaticon-achievement"></i></div>
+						<h3>Mission</h3>
+						<div class="tr-pa">M</div>
+						<p>To protect and promote the right of every Filipino to quality, equitable, culture-based, and complete basic education where: Students learn in a child friendly, gender-sensitive,safe, and motivating envinronment Teachers facilitate learning and constantly nurture every learner.</p>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 col-12">
+					<div class="inner-hmv">
+						<div class="icon-box-hmv"><i class="flaticon-eye"></i></div>
+						<h3>Vision</h3>
+						<div class="tr-pa">V</div>
+						<p>We dream of Filipinos who passionately love their country and whose values competencies enable them to realize their full potential and contribute meaningfully to building the nation. As a learner-centered public institution, the Department of Education continously improves itself to better serve its stakeholders.</p>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 col-12">
+					<div class="inner-hmv">
+						<div class="icon-box-hmv"><i class="flaticon-history"></i></div>
+						<h3>History</h3>
+						<div class="tr-pa">H</div>
+						<p>The study of Tongantongan National Highschool history is crucial in providing a comprehensive understanding of the cultural
+                            social, and political developments of Tongantongan people throughout the ages. By examining Tongantongan history, we are able to <div class="container">
+                                insights into the influences and interactions that have shaped the society and its people. One weakness in the study 
+                                of Tongantongan history, however, is the limited focus on relationship between myth and oral history at the highest level of Tongantongan National Highschool.
+                            </div></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="parallax section dbcolor">
+        <div class="container">
+            <div class="row logos">
+                <div class="col-md-2 col-sm-2 col-xs-6 wow fadeInUp">
+                    <a href="#"><img src="images/logo_01.png" alt="" class="img-repsonsive"></a>
+                </div>
+                <div class="col-md-2 col-sm-2 col-xs-6 wow fadeInUp">
+                    <a href="#"><img src="images/logo_02.png" alt="" class="img-repsonsive"></a>
+                </div>
+                <div class="col-md-2 col-sm-2 col-xs-6 wow fadeInUp">
+                    <a href="#"><img src="images/logo_03.png" alt="" class="img-repsonsive"></a>
+                </div>
+                <div class="col-md-2 col-sm-2 col-xs-6 wow fadeInUp">
+                    <a href="#"><img src="images/logo_04.png" alt="" class="img-repsonsive"></a>
+                </div>
+                <div class="col-md-2 col-sm-2 col-xs-6 wow fadeInUp">
+                    <a href="#"><img src="images/logo_05.png" alt="" class="img-repsonsive"></a>
+                </div>
+                <div class="col-md-2 col-sm-2 col-xs-6 wow fadeInUp">
+                    <a href="#"><img src="images/logo_06.png" alt="" class="img-repsonsive"></a>
+                </div>
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </div><!-- end section -->
+
+	<div class="parallax section dbcolor">
+        <div class="container">
+            <div class="row logos">
+                <div class="col-md-2 col-sm-2 col-xs-6 wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+                    <a href="#"><img src="images/logo_01.png" alt="" class="img-repsonsive"></a>
+                </div>
+                <div class="col-md-2 col-sm-2 col-xs-6 wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+                    <a href="#"><img src="images/logo_02.png" alt="" class="img-repsonsive"></a>
+                </div>
+                <div class="col-md-2 col-sm-2 col-xs-6 wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+                    <a href="#"><img src="images/logo_03.png" alt="" class="img-repsonsive"></a>
+                </div>
+
+  
+
+    
+    <a href="#" id="scroll-to-top" class="dmtop global-radius"><i class="fa fa-angle-up"></i></a>
+
+    <!-- ALL JS FILES -->
+    <script src="js/all.js"></script>
+    <!-- ALL PLUGINS -->
+    <script src="js/custom.js"></script>
+
+</body>
+</html>
